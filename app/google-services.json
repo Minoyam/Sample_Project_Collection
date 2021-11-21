@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "819761756694",
+    "firebase_url": "https://aop-part3-chapter01-a3ad8-default-rtdb.firebaseio.com",
+    "project_id": "aop-part3-chapter01-a3ad8",
+    "storage_bucket": "aop-part3-chapter01-a3ad8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819761756694:android:c23d8e47e7591127dc5337",
+        "android_client_info": {
+          "package_name": "com.mino.sampleprojectcollection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819761756694-41kf1ona9taajhp1q62v47i0anvsnqdm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9XKpWr1JQ483-pqNglxAWEBYnwuDHCQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "819761756694-41kf1ona9taajhp1q62v47i0anvsnqdm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
