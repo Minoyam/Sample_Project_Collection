@@ -10,7 +10,8 @@ import com.mino.sampleprojectcollection.databinding.ItemArticleBinding
 import java.text.SimpleDateFormat
 import java.util.*
 
-class ArticleAdapter : ListAdapter<ArticleModel, ArticleAdapter.ArticleViewHolder>(diffUtil) {
+class ArticleAdapter(private val onItemClicked: (ArticleModel) -> Unit) :
+    ListAdapter<ArticleModel, ArticleAdapter.ArticleViewHolder>(diffUtil) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ArticleViewHolder {
         return ArticleViewHolder(
@@ -42,7 +43,9 @@ class ArticleAdapter : ListAdapter<ArticleModel, ArticleAdapter.ArticleViewHolde
                     .load(articleModel.imageUrl)
                     .into(binding.thumbnailImageView)
             }
-
+            binding.root.setOnClickListener {
+                onItemClicked(articleModel)
+            }
         }
     }
 
